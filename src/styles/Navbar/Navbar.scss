@@ -1,0 +1,66 @@
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  color: #788ca0;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #788ca0;
+  }
+  .logo_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    .option_1 {
+      min-width: 50px;
+      height: 28px;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 28px;
+      margin-left: 50px;
+      &:last-child {
+        background: linear-gradient(95.29deg, #efae88 -31.05%, #ef88ed 91.1%),
+          linear-gradient(95.29deg, #efae88 -31.05%, #ef88ed 91.1%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+    }
+    img {
+      height: 32px;
+      width: 202px;
+      margin-left: 154px;
+      margin-right: 68px;
+    }
+  }
+  .options_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    .option_2 {
+      min-width: 33px;
+      height: 28px;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 28px;
+      margin-left: 34px;
+      &:last-child {
+        margin-left: 34px;
+        min-width: 106px;
+        height: 41px;
+        border-radius: 55px;
+        border: 1px solid #7449ff;
+        display: grid;
+        place-items: center;
+      }
+    }
+  }
+}
