@@ -36,13 +36,13 @@
     img {
       height: 32px;
       width: 202px;
-      margin-left: 154px;
+      margin-left: 120px;
       margin-right: 68px;
     }
   }
   .options_container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     width: 30%;
     .option_2 {
@@ -53,6 +53,7 @@
       line-height: 28px;
       margin-left: 34px;
       &:last-child {
+        margin-right: 120px;
         margin-left: 34px;
         min-width: 106px;
         height: 41px;
@@ -62,5 +63,11 @@
         place-items: center;
       }
     }
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .navbar {
+    display: none;
   }
 }
