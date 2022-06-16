@@ -1,0 +1,123 @@
+.main_section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  .main_section_title {
+    max-width: 90%;
+    font-family: "GT Walsheim Pro";
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 93px;
+    color: #ffffff;
+    margin-top: 79px;
+    text-align: center;
+  }
+  .main_section_content {
+    max-width: 90%;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+    color: #788ca0;
+    margin-top: 10px;
+  }
+  .start_trial {
+    width: 200px;
+    height: 70px;
+    background: linear-gradient(180deg, #7950ff 0%, #5e35e6 100%);
+    border-radius: 71px;
+    display: grid;
+    place-items: center;
+    margin-top: 37px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    border: 1px solid transparent;
+    &:hover {
+      cursor: pointer;
+      background: transparent;
+      border: 1px solid #7449ff;
+    }
+  }
+  .watch_demo_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 28px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #788ca0;
+    margin-top: 23px;
+    transition: 0.5s;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+    img {
+      height: 50%;
+      margin-left: 7.78px;
+    }
+  }
+  .main_section_image {
+    max-width: 90%;
+    margin-top: 23px;
+  }
+  .message {
+    max-width: 90%;
+    margin-top: 39px;
+    height: 28px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #788ca0;
+    opacity: 0.5;
+    margin-bottom: 50px;
+  }
+  .trusted_company {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    img {
+      height: 35px;
+    }
+  }
+}
+@media screen and (min-width: 1360px) {
+  .main_section {
+    .main_section_title {
+      font-size: 64px;
+    }
+    .main_section_content {
+      width: 681px;
+      font-size: 24px;
+    }
+    .main_section_image {
+      max-width: 90%;
+      height: 757px;
+    }
+    .message {
+      width: 708px;
+    }
+    .trusted_company {
+      gap: 50px;
+      margin-bottom: 50px;
+    }
+  }
+}

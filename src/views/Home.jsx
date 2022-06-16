@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 //components
 import Navbar from "../components/Navbar";
+import MainSection from "../components/MainSection";
 //styles
 import "../styles/Home/Home.scss";
 function Home() {
@@ -29,6 +30,7 @@ function Home() {
     <div className="home">
       <div className="light" ref={cursor}></div>
       <Navbar />
+      <MainSection />
     </div>
   );
 }
