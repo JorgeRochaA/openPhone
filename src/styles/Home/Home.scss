@@ -1,4 +1,26 @@
 .home {
-  height: 100px;
-  background-color: red;
+  min-height: 100vh;
+  .light {
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 530px;
+    width: 530px;
+    background: radial-gradient(
+      57.72% 57.72% at 61.86% 38.92%,
+      #ef88ed 0%,
+      #7269e3 54.46%,
+      #8350db 100%
+    );
+    mix-blend-mode: overlay;
+    filter: blur(103.896px);
+    pointer-events: none;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .light {
+    display: none;
+  }
 }
