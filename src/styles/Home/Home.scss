@@ -19,3 +19,8 @@
     pointer-events: none;
   }
 }
+@media screen and (max-width: 1360px) {
+  .light {
+    display: none;
+  }
+}
