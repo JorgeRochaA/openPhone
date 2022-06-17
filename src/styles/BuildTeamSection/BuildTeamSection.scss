@@ -1,0 +1,129 @@
+.build_team_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .build_team_title {
+    max-width: 90%;
+    font-family: "GT Walsheim Pro";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .build_team_content {
+    max-width: 90%;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #788ca0;
+    margin-top: 24px;
+    margin-bottom: 93px;
+  }
+  .team_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 127px;
+    .team_info_container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        .team_card_title {
+          font-family: "GT Walsheim Pro";
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 55px;
+          text-align: center;
+        }
+        .team_card_content {
+          font-family: "Inter";
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 32px;
+          color: #788ca0;
+          margin-top: 18px;
+          text-align: center;
+        }
+        .team_card_button {
+          width: 200px;
+          height: 70px;
+          display: grid;
+          place-items: center;
+          background: linear-gradient(180deg, #7950ff 0%, #5e35e6 100%);
+          border-radius: 71px;
+          font-family: "Inter";
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 28px;
+          transition: 0.5s;
+          margin-top: 48px;
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+    .team_image_container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+      img {
+        max-width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+@media screen and (min-width: 898px) {
+  .build_team_section {
+    .build_team_title {
+      width: 844px;
+      height: 55px;
+    }
+    .build_team_content {
+      width: 600px;
+      height: 65px;
+    }
+  }
+}
+@media screen and (min-width: 1021px) {
+  .build_team_section {
+    .team_card {
+      flex-direction: row;
+      .team_info_container {
+        width: 50%;
+        div {
+          align-items: flex-start;
+          max-width: 412px;
+          .team_card_content {
+            height: 228px;
+            width: 500px;
+            margin-top: 0px;
+            text-align: left;
+          }
+          .team_card_button {
+            margin-top: 0;
+          }
+        }
+      }
+      .team_image_container {
+        width: 50%;
+        margin-bottom: 0;
+        justify-content: flex-start;
+      }
+    }
+  }
+}

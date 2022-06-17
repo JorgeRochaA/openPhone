@@ -8,8 +8,13 @@ import cardsData from "../data/cardsData.json";
 function CardsSection() {
   return (
     <div className="cards_section">
-      {cardsData.map((card) => (
-        <Card image={card.image} title={card.title} content={card.content} />
+      {cardsData.map((card, index) => (
+        <Card
+          key={index}
+          image={card.image}
+          title={card.title}
+          content={card.content}
+        />
       ))}
     </div>
   );
