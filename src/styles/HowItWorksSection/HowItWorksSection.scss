@@ -1,0 +1,158 @@
+.how_it_works_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  .how_it_works_title {
+    min-width: 292px;
+    height: 93px;
+    font-family: "GT Walsheim Pro";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 93px;
+    margin-bottom: 39px;
+  }
+  .step_card_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    .step_card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 25px;
+      .step_card_text {
+        width: 157px;
+        height: 59px;
+        font-family: "Inter";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 21px;
+      }
+    }
+    .arrow {
+      margin-bottom: 25%;
+      display: none;
+    }
+  }
+  .information_and_image_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 175px;
+    .image_container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      img {
+        width: 90%;
+      }
+    }
+    .information_container {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .information_title {
+          height: 110px;
+          font-family: "GT Walsheim Pro";
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 55px;
+          margin-bottom: 26px;
+          text-align: center;
+        }
+        .information_content {
+          font-family: "Inter";
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 32px;
+          color: #788ca0;
+          text-align: center;
+        }
+        .ball {
+          margin: 50px 0px;
+          align-self: flex-end;
+          height: 80px;
+          width: 80px;
+          background: url("../../assets/ball.png");
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1042px) {
+  .step_card_container {
+    grid-template-columns: repeat(5, auto) !important;
+    .arrow {
+      display: initial !important;
+    }
+  }
+}
+@media screen and (min-width: 1197px) {
+  .information_and_image_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row !important;
+    margin-bottom: 127px;
+    background-color: red;
+    .image_container {
+      display: flex;
+      justify-content: flex-end;
+      width: 50%;
+      height: 725px;
+      img {
+        height: 90%;
+      }
+    }
+    .information_container {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: rebeccapurple;
+      div {
+        display: flex;
+        flex-direction: column;
+        background-color: gold;
+        .information_title {
+          width: 412px;
+          height: 110px;
+          font-family: "GT Walsheim Pro";
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 55px;
+          margin-bottom: 26px;
+          text-align: left !important;
+        }
+        .information_content {
+          width: 412px;
+          height: 130px;
+          font-family: "Inter";
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 32px;
+          color: #788ca0;
+          text-align: left !important;
+        }
+        .ball {
+          align-self: flex-end;
+          height: 80px;
+          width: 80px;
+          background: url("../../assets/ball.png");
+        }
+      }
+    }
+  }
+}
