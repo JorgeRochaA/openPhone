@@ -5,6 +5,7 @@ import MainSection from "../components/MainSection";
 import HowItWorksSection from "../components/HowItWorksSection";
 import CardsSection from "../components/CardsSection";
 import BuildTeamSection from "../components/BuildTeamSection";
+import Footer from "../components/Footer";
 //styles
 import "../styles/Home/Home.scss";
 function Home() {
@@ -37,6 +38,7 @@ function Home() {
       <HowItWorksSection />
       <CardsSection />
       <BuildTeamSection />
+      <Footer />
     </div>
   );
 }
