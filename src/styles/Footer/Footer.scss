@@ -49,6 +49,16 @@
     align-items: center;
     gap: 100px;
     margin-bottom: 55px;
+    .footer_link_1 {
+      .careers {
+        background: linear-gradient(95.29deg, #efae88 -31.05%, #ef88ed 91.1%),
+          linear-gradient(95.29deg, #efae88 -31.05%, #ef88ed 91.1%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+    }
     .footer_link_1,
     .footer_link_2,
     .footer_link_3 {

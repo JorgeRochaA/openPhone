@@ -27,7 +27,12 @@ function Footer() {
           <a href="#Company">Company</a>
           <a href="#About">About</a>
           <a href="#Press">Press</a>
-          <a href="#Careers">Careers✨</a>
+          <div>
+            <a className="careers" href="#Careers">
+              Careers
+            </a>
+            ✨
+          </div>
           <a href="#Terms">Terms of service</a>
           <a href="#Privacy">Privacy Policy</a>
         </div>
