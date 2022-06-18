@@ -131,9 +131,9 @@
           align-items: center;
           img {
             width: 45%;
-            &:first-child {
-              margin-right: 0 !important;
-            }
+          }
+          img:first-child {
+            margin-right: 0px;
           }
         }
         .footer_copyright {
