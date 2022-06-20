@@ -50,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
+    min-width: 120px;
     height: 28px;
     font-family: "Inter";
     font-weight: 500;
@@ -76,7 +76,7 @@
   .message {
     max-width: 90%;
     margin-top: 39px;
-    height: 28px;
+    min-height: 28px;
     font-family: "Inter";
     font-weight: 500;
     font-size: 16px;

@@ -5,12 +5,13 @@
   font-style: normal;
   .how_it_works_title {
     min-width: 292px;
-    height: 93px;
+    min-height: 93px;
     font-family: "GT Walsheim Pro";
     font-weight: 700;
     font-size: 48px;
     line-height: 93px;
     margin-bottom: 39px;
+    text-align: center;
   }
   .step_card_container {
     width: 100%;
@@ -26,7 +27,7 @@
       margin-top: 25px;
       .step_card_text {
         width: 157px;
-        height: 59px;
+        min-height: 59px;
         font-family: "Inter";
         font-weight: 700;
         font-size: 18px;
@@ -63,7 +64,7 @@
         flex-direction: column;
         max-width: 100%;
         .information_title {
-          height: 110px;
+          min-height: 110px;
           font-family: "GT Walsheim Pro";
           font-weight: 700;
           font-size: 48px;
