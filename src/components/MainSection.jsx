@@ -23,23 +23,16 @@ function MainSection() {
       </div>
       <div className="trusted_company">
         <img
-          src="https://www.openphone.com/_next/image?url=%2Fimages%2Fos-logos%2Fmac-os.svg&w=96&q=75"
-          alt="macOS"
-        />
-        <img
-          src="https://www.openphone.com/_next/image?url=%2Fimages%2Fos-logos%2Fwindows.svg&w=96&q=75"
+          src="https://cdn.worldvectorlogo.com/logos/microsoft-windows-22.svg"
           alt="windows"
         />
         <img
-          src="https://www.openphone.com/_next/image?url=%2Fimages%2Fos-logos%2Fweb.svg&w=96&q=75"
+          src="https://cdn.worldvectorlogo.com/logos/google-earth-2.svg"
           alt="web"
         />
+        <img src="https://cdn.worldvectorlogo.com/logos/apple.svg" alt="ios" />
         <img
-          src="https://www.openphone.com/_next/image?url=%2Fimages%2Fos-logos%2Fi-os.svg&w=96&q=75"
-          alt="ios"
-        />
-        <img
-          src="https://www.openphone.com/_next/image?url=%2Fimages%2Fos-logos%2Fandroid.svg&w=96&q=75"
+          src="https://cdn.worldvectorlogo.com/logos/android.svg"
           alt="android"
         />
       </div>
