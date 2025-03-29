@@ -23,16 +23,19 @@ function MainSection() {
       </div>
       <div className="trusted_company">
         <img
-          src="https://cdn.worldvectorlogo.com/logos/microsoft-windows-22.svg"
+          src="https://cdn.prod.website-files.com/6384fdd9fd42380b529fc942/63c768f3c7ba4a1bec1cd06a_Brand_Windows.svg"
           alt="windows"
         />
         <img
-          src="https://cdn.worldvectorlogo.com/logos/google-earth-2.svg"
+          src="https://cdn.prod.website-files.com/6384fdd9fd42380b529fc942/63c768f33c05b13a7e46ee7a_Brand_Web.svg"
           alt="web"
         />
-        <img src="https://cdn.worldvectorlogo.com/logos/apple.svg" alt="ios" />
         <img
-          src="https://cdn.worldvectorlogo.com/logos/android.svg"
+          src="https://cdn.prod.website-files.com/6384fdd9fd42380b529fc942/63c768f111d6b546bea902a4_Brand_AppStore.svg"
+          alt="ios"
+        />
+        <img
+          src="https://cdn.prod.website-files.com/6384fdd9fd42380b529fc942/63c768f4c4465845610be9aa_Brand_PlayStore.svg"
           alt="android"
         />
       </div>
